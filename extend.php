@@ -95,7 +95,7 @@ return [
                '<p class="space"></p>'
             );
              $config->BBCodes->addCustom(
-               '[spoiler="{ANYTHING2}"]{ANYTHING3}[/spoiler]',
+               '[spoiler={ANYTHING2;optional;defaultValue=Spoiler}]{ANYTHING3}[/spoiler]',
                '<details>
                 <summary>{ANYTHING2}</summary>
                 <p>{ANYTHING3}</p>
